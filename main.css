@@ -1,0 +1,42 @@
+body {
+  font-family: "Lucida Console", Monaco, monospace;
+}
+.intro {
+  margin: 10px auto;
+  padding: 30px 5px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 65px;
+  color: #767779
+}
+.intro .subintro {
+  font-size: 18px;    
+  line-height: 40px;
+  color: #87CEEB;
+}
+.index .links {
+  display: -webkit-flex;
+  max-width: 320px;
+  margin: 10px auto;
+}
+.index .links .link {
+  margin: 0 10px;
+  width: 80px;
+  font-size: 35px;
+  display: inline-block;
+}
+.index .links .link a {
+  color: #939597;
+}
+.index .links .link a:hover .fa {
+  color: #87CEEB;
+  text-decoration: none;
+  border-bottom: 2px solid #87CEEB;
+}
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
